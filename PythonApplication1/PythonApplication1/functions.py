@@ -25,15 +25,23 @@ class functions:
                 break
         return choice
 
-    def choice_result(choice, resulta, resultb, resultc, resultd):
+    def choice_result(choice, resulta, statusa, resultb, statusb, resultc, statusc, resultd, statusd):
         if choice == 'a':
             print(resulta + "\n")
+            return statusa
         elif choice == 'b':
             print(resultb + "\n")
+            return statusb
         elif choice == 'c':
             print(resultc + "\n")
+            return statusc
         elif choice == 'd':
             print(resultd + "\n")
+            return statusd
         time.sleep(4)
+
+    def game_exit():
+        print("The game is over. Please proceed with reality.")
+
 
 
