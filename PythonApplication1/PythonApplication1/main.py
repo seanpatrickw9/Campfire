@@ -1,7 +1,7 @@
 # Text-based adventure game with multiple plot lines.
 # Sean Wallace - August 17th 2018
 import time
-from class1 import functions
+from functions import functions
         
 print("Welcome to CAMPFIRE!\nYou have grown weary of the everyday stresses of urban life.\n" + \
     "You decided to take some time off and go camping in the vast wilderness.\n\n")
